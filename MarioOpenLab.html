@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenLab</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+	  	$("a").on('click', function(event) {
+
+		if (this.hash !== "") {
+			event.preventDefault();
+		  	var hash = this.hash;
+		  	$('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 
+		  	800, function(){
+			window.location.hash = hash;
+		  });
+		} 
+	  });
+	});
+	</script>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+        <div class="col">
+            <img src="../assets/logo.png" height="76" class="py-3 ml-5">
+        </div>
+        <div class="col">
+                <nav class="nav justify-content-center" style="line-height: 50px;">
+                    <a class="nav-link" href="#backgr2">O nas</a>
+                    <a class="nav-link" >Open Lab</a>
+                    <a class="nav-link" >Software Lab</a>
+                    <a class="nav-link" >Games Lab</a>
+                    <a class="nav-link" >Kontakt</a>
+                </nav>
+            </div>
+        <div class="col" style="line-height: 60px;">
+            <button type="button" class="btn btn-outline-secondary">Komunita</button>
+            <button type="button" class="btn btn-outline-secondary">Podporte nas</button>
+        </div>
+    </div> 
+    </header>
+    <div class="container-fluid" id="backgr">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                        <div class="col">
+                            <div style="position: absolute; height: 260px; top: 640px; left: -100px; padding: 4px" class="box-1">
+                                <div class="ikony">
+                            <img src="../assets/social_icons.png" height="250" width="70">
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col">
+                        <div style="position: absolute; top: 550px; left: -200px; padding: 4px " class="box-2 padd1">
+                            <h1><b>Teamovi<br>technologicky<br>akcelerator pre skoly</b></h1>
+                            <p>Prejdi si za 5 mesiacov celym procesom Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga impedit ipsum laboriosam natus, officia qui quia ratione totam voluptate! Commodi corporis delectus possimus quasi quod sapiente sint? Autem, ex, voluptas.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="backgr2">
+			<div class="container" style="padding-top: 169px; padding-bottom: 169px;">
+				<div class="row">
+					<div class="col text-white">
+						<div style="position: relative; border-radius: 20px; top: 50%; transform: translate(0, -50%)">
+							<strong>
+								NASE CIELE
+							</strong>
+							<h1>
+								Preco to robime
+							</h1>
+							<p style="margin-top: 30px">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta dignissimos, ducimus enim eos eveniet ex explicabo illum ipsum iusto laborum, magni molestias nostrum, optio quo repellendus rerum saepe velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, alias aspernatur aut blanditiis consequatur eius explicabo id illo, ipsam laboriosam magnam modi necessitatibus officia praesentium quidem quod, sint suscipit totam.
+							</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card bg-white" style="position: relative; border-radius: 15px; margin-top: 270px;">
+							<img src="../assets/01.png" class="card-img-top">
+							<div class="card-body">
+								<div class="card-title">
+									<span class="bg-info text-white side-pad" style="border-radius: 10px">
+										LEARNING BY DOING
+									</span>
+								</div>
+								<p class="card-text">
+                                        "Lorem Ipsum dolor sit amet"
+								</p>
+							</div>
+						</div>
+					</div>
+				<div class="col">
+					<div class="row">
+							<div class="card bg-white" style="position: relative; border-radius: 15px; margin-top: 80px;">
+								<img src="../assets/02.png" class="card-img-top">
+								<div class="card-body">
+									<div class="card-title">
+										<span class="bg-success text-white side-pad" style="border-radius: 10px">
+                                         "Lorem Ipsum dolor sit amet"
+										</span>
+									</div>
+									<p class="card-text">
+                                        "Lorem Ipsum dolor sit amet"
+									</p>
+								</div>
+							</div>
+					</div>
+					<div class="row" style="margin-top: 20px">
+						<div class="card bg-white" style="position: relative; border-radius: 15px; margin-top: 25px;">
+								<img src="../assets/03.png" class="card-img-top">
+								<div class="card-body">
+								<div class="card-title">
+										<span class="bg-dark text-white side-pad" style="border-radius: 10px">
+											TALENT ACCELERATING
+										</span>
+								</div>
+									<p class="card-text">
+										"Lorem Ipsum dolor sit amet"
+									</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="backgr3">
+		<div class="row">
+			<div class="container">
+				<div class="col-6">
+					<div class="grisibox2" style="margin-left: 450px; margin-top: 250px";>
+						<div style="margin-top: 25px"></div>
+							<h6>ZAKLADAJUCI CLEN</h6>
+							<h1>Everything is possible</h1>
+							<p style="margin-top: 45px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos eius et fuga id illo itaque, maiores nesciunt numquam, omnis quaerat quas quia quis quod, tempore temporibus tenetur ullam ut!</p>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="grisibox1" style="margin-top: -400px; margin-left: -50px">
+							<img src="../assets/grisi.png" class="grisiobrazok">
+							<img src="../assets/podpisy.png" class="grisipodpis">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

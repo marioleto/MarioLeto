@@ -1,0 +1,111 @@
+#backgr {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    height: 855px;
+}
+
+.ikony {
+    width: 69px;
+    border-radius: 10px
+}
+.ikony-container {
+    margin-top: 600;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.box-1 {
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.box-2 {
+    height: 350px;
+    width: 500px;
+    background-color:white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 10px;
+    margin-left: -200px
+}
+
+.padd1 {
+    padding: 2rem!important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#backgr2 {
+    background-color: #000033;
+    height: 1200px
+    
+}
+
+.col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.c2u {
+    color: white;
+    margin-top: 400px
+}
+
+.karta {
+    margin-top: 400px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#backgr3 {
+    background-image: url(../assets/office.jpg);
+    background-size: cover;
+    height: 855px;
+}
+
+.grisibox1 {
+    
+    width: 600px;
+    height: 400px;
+    border-radius: 25px 0px 70px 25px;
+    position: relative;
+    background-color: white
+    
+}
+
+.grisibox2 {
+    
+    width: 700px;
+    height: 400px;
+    border-radius: 25px 25px 25px 0px;
+    position: relative;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 25px;
+    background-color: royalblue;
+    color: white;
+      
+}
+
+.grisiobrazok {
+    height: 450px;
+    width: 585px;
+    margin-top: -50px;
+}
+
+.grisipodpis {
+    height: 150px;
+    width: 150px;
+    margin-top: -200px;
+    margin-left: 350px;
+}
